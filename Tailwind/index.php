@@ -50,7 +50,6 @@ if (isset($_POST['delete'])){
                 </tr>
             </thead>
             <tbody class="bg-white border border-black text-center">
-            <tbody class="bg-white border border-black text-center">
                 <?php foreach ($students as $key => $student) : ?>
                     <tr>
                     <td><?= $key + 1 ?></td>
